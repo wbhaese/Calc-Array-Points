@@ -1,4 +1,4 @@
-function sideBarPointsCount() {
+function sideBarPointsCount(scoreArray) {
     for(var v = 0; v < scoreArray.length; v++){
       for(var z = 0; z < scoreArray[v].length; z++){
         if(scoreArray[v][z] != undefined){
